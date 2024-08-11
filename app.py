@@ -3,9 +3,14 @@ import openai
 from annoy import AnnoyIndex
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
+from dotenv import load_dotenv
+import os
+
+# Cargar las variables de entorno desde .env
+load_dotenv()
 
 # Configuración de la API de OpenAI
-openai.api_key = "sk-oj_b7G-HNYarQpk_jR6ZXPjBkyukq53Up1hJSxOZ_sT3BlbkFJlSwbiZ3cd980KKjfIhXK_gRH4UTmkn8WvJPnohpBcA"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Función para cargar y procesar el archivo de menú
 def load_menu(uploaded_file):
