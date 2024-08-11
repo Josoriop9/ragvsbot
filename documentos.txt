@@ -1,0 +1,17 @@
+Nombre del restaurante: Delicias Italianas
+Entradas: Bruschetta con tomate y albahaca
+Entradas: Ceviche de camarones
+Entradas: Empanadas argentinas
+Entradas: Sopa de cebolla francesa
+Platos Principales: Risotto de hongos
+Platos Principales: Bife de chorizo con chimichurri
+Platos Principales: Paella de mariscos
+Platos Principales: Pollo al curry con arroz basmati
+Postres: Tiramisú clásico
+Postres: Helado de chocolate belga
+Postres: Cheesecake de frutos rojos
+Postres: Crème brûlée
+Bebidas: Mojito clásico
+Bebidas: Cerveza artesanal
+Bebidas: Vino tinto Malbec
+Bebidas: Café expreso italiano
