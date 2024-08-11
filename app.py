@@ -22,6 +22,7 @@ def load_menu(uploaded_file):
             menu_items.append(f"{item} ({category})")
     return menu_items
 
+
 # Interfaz en Streamlit
 st.title("Comparación RAG vs Chatbot Estándar")
 

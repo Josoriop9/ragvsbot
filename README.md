@@ -1,67 +1,67 @@
-# Hello World RAG - Comparación de Chatbots
+# Hello World RAG - Chatbot Comparison
 
-Este proyecto demuestra cómo implementar un chatbot básico utilizando RAG (Retrieval-Augmented Generation) en Streamlit. Compara un chatbot potenciado por RAG con un chatbot estándar, utilizando datos ficticios de un menú de restaurante.
+This project demonstrates how to implement a basic chatbot using RAG (Retrieval-Augmented Generation) in Streamlit. It compares a RAG-powered chatbot with a standard chatbot, using fictitious data from a restaurant menu.
 
-## Estructura del Proyecto
+## Project Structure
 
-- `app.py`: Código principal de la aplicación Streamlit.
-- `menu.txt`: Archivo de texto que contiene el menú del restaurante.
-- `requirements.txt`: Archivo con las dependencias de Python necesarias.
+- `app.py`: Main code for the Streamlit application.
+- `menu.txt`: Text file containing the restaurant menu.
+- `requirements.txt`: File with the necessary Python dependencies.
 
-## Requisitos
+## Requirements
 
-- Python 3.7 o superior
-- Cuenta de OpenAI con una clave API válida
+- Python 3.7 or higher
+- OpenAI account with a valid API key
 
-## Instalación
+## Installation
 
-1. **Clona el repositorio**:
+1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/tu-usuario/Hello_World_RAG.git
+   git clone https://github.com/your-username/Hello_World_RAG.git
    cd Hello_World_RAG
    ```
 
-2. **Crea un entorno virtual y actívalo**:
+2. **Create a virtual environment and activate it**:
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-3. **Instala las dependencias**:
+3. **Install the dependencies**:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Configura tu clave API de OpenAI**:
+4. **Set up your OpenAI API key**:
    
-   - Abre el archivo `app.py`.
-   - Sustituye `"tu-api-key-aqui"` por tu clave API de OpenAI.
+   - Open the `app.py` file.
+   - Replace `"your-api-key-here"` with your OpenAI API key.
 
-5. **Ejecuta la aplicación**:
+5. **Run the application**:
 
    ```bash
    streamlit run app.py
    ```
 
-6. **Carga el archivo `menu.txt`** cuando se te solicite en la interfaz de la aplicación.
+6. **Upload the `menu.txt` file** when prompted in the application interface.
 
-## Uso
+## Usage
 
-Puedes hacer preguntas sobre el menú del restaurante en los dos chats. El chat con RAG utiliza la técnica de recuperación para mejorar las respuestas, mientras que el chat estándar responde sin utilizar los datos del menú.
+You can ask questions about the restaurant menu in both chats. The RAG chat uses the retrieval technique to enhance responses, while the standard chat responds without using the menu data.
 
-## Ejemplos de Preguntas
+## Example Questions
 
-- "¿Cuál es la especialidad del chef?"
-- "¿Qué bebida recomiendan para acompañar el risotto?"
-- "¿Qué postres ofrecen que no sean tan dulces?"
+- "What is the chef's specialty?"
+- "What drink do you recommend to pair with the risotto?"
+- "What desserts do you offer that are not too sweet?"
 
-## Contribución
+## Contribution
 
-Si tienes sugerencias o mejoras, no dudes en hacer un fork del repositorio y enviar un pull request.
+If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
 
-## Licencia
+## License
 
-Este proyecto está bajo la licencia MIT.
+This project is licensed under the MIT License.
